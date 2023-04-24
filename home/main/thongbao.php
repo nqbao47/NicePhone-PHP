@@ -1,0 +1,1 @@
+<p class="thongbao"><i class="fa-solid fa-alicorn" aria-hidden="true"></i>Đơn hàng đã đặt thành công, chúng tôi sẽ giao hàng trong thời gian sớm nhất đến bạn !!! </p>

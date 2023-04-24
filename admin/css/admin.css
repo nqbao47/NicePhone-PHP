@@ -1,0 +1,96 @@
+
+ul.admin_list {
+    padding: 21px;
+    margin: 0;
+    list-style: none;
+    background-color: #ddd;
+    line-height: 0;
+}
+/*
+.container {
+    height: 153px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: ;
+    padding: 0;
+}
+*/
+.container {
+    height: auto;
+    width: 60%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 6px;
+    border-radius: 29px;
+    border: 1px solid #000;
+}
+
+ul.admin_list li {
+    float: left;
+    margin: 5px;
+}
+ul.admin_list li a {
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 21px;
+    margin-left: 139px;
+    font-weight: bold;
+}
+ul.admin_list li a:hover {
+    color: lightcoral;
+}
+a.header {
+    margin-right: 15px;
+}
+.clear {
+    clear: both;
+}
+h3.title_ad {
+    text-align: center;
+    font-size:40px;
+    color: lightcoral;
+ 
+}
+i.fa.fa-home {
+    margin-right: 7px;
+}
+i.fa.fa-home {
+    margin-bottom: 14px;
+    margin-top: -11px;
+}
+p.themdanhmuc {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+p.lietkedanhmuc {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+p.lietkesanpham {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+p.themsanpham {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+p.lietkedonhang {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+p.kiemtradonhang {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.footer {
+    width: 100%;
+    padding-bottom: 0;
+    font-size: 7px;
+    text-align: center;
+}

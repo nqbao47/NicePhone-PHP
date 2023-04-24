@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 2px solid #000;
+    height: auto;
+    width: 60%;
+    margin: 0 auto;
+    background-color: cornsilk;
+}
+.container_chitiet {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+i.fa.fa-plus {
+    color: #000;
+    font-size: 20px;
+}
+i.fa.fa-minus {
+    color: #000;
+    font-size: 20px;
+}
+i.fa.fa-plus:hover {
+    color: green;
+}
+i.fa.fa-minus:hover {
+    color: green;
+}
+.hinhanhsp {
+    float: left;
+    margin: 0 10px;
+    width: 27%;
+}
+.chitietsp {
+    width: 35%;
+    margin: 0 10px;
+    float: left;
+}
+input.themgiohang {
+    border: none;
+    background: green;
+    color: #ddd;
+    padding: 15px;
+    /* margin: 15px; */
+    font-size: 15px;
+}
+input.themgiohang:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    color: #000;
+    transition: all 0.7s ease;
+}
+.header {
+    border: 1px solid #000;
+    height: 42px;
+    width: 100%;
+    background-image: url("../images/BANNER1.png");
+}
+.menu {
+    border: 1px solid #fff;
+    height: 66px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 30px;
+    margin-top: 6px;
+}
+ul.list_menu li {
+    float: left;
+    margin: 5px;
+    padding: 3px;
+}
+ul.list_menu {
+    width: 78%;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    float: left;
+    line-height: 2;
+}
+ul.list_menu li a:hover {
+    color: lightcoral;
+}
+ul.list_menu li a {
+    color: #ddd;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    /* text-align: center; */
+    /* justify-content: center; */
+    margin-left: 11px;
+}
+img.logoFinal {
+    width: 98px;
+    height: 40px;
+}
+i.fa.fa-home {
+    margin-right: 4px;
+}
+h3.tukhoa {
+    margin-left: 21px;
+}
+.main {
+    border: 1px solid #FFF8DC;
+    height: auto;
+    width: 100%;
+}
+.category {
+    border: 1px solid #000;
+    height: 200px;
+    width: 10%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+    border-radius: 15px;
+    background-color: #D2B48C;
+}
+ul.list_category li {
+    margin: 5px;
+    padding: 3px;
+}
+ul.list_category {
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    line-height: 30px;
+
+}
+ul.list_category li:hover {
+    background-color: rgba(221, 221, 221, 0.411);
+    color: #000;
+}
+ul.list_category li a{
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+h3.danhmuc {
+    margin-left: 22px;
+}
+i.fa.fa-list {
+    margin-right: 12px;
+}
+i.fa.fa-search {
+    margin-left: 4px;
+    line-height: -3px;
+    /* margin-top: -12px; */
+    color: aliceblue;
+}
+i.fa.fa-sort-desc {
+    margin-left: 7px;
+}
+.product {
+    border: 1px solid #000;
+    height: auto;
+    width: 87%;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: right;
+    margin-right: 13px;
+    border-radius: 14px;
+    background-color: tan;
+/*   text-align: center; */
+}
+a.dathang {
+    background-color: aquamarine;
+    border: 1px solid #000;
+    padding: 5px;
+    text-decoration: none;
+    /* margin-left: -917px; */
+    float: right;
+    margin-top: 10px;
+}
+a.dathang:hover{
+    background-color: lightseagreen;
+    color: #fff;
+    transition: all 0.5s ease;
+} 
+a.xoaall {
+     background-color: #ddd;
+    border: 1px solid #000;
+    padding: 5px;
+    text-decoration: none;
+}
+a.xoaall:hover{
+    color: lightcoral;
+}
+p.thongbao {
+    padding: 75px;
+    font-size: 23px;
+    color: brown;
+}
+ul.list_product {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.list_product li img {
+    width: 85%;
+    margin: 15px;
+}
+ul.list_product li {
+    border: 2px solid #ddd;
+    margin: 22px;
+    float: left;
+    width: 188px;
+    height: 351px;
+    border-radius: 15px;
+}
+ul.list_product li {
+    border: 2px solid #ddd;
+    margin: 22px;
+    float: left;
+    width: 189px;
+    height: 376px;
+    background-color: aliceblue;
+}
+ul.list_product li a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+p.name_product {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+p.price_product{
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+p.doimk {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+table.table-log {
+    margin: 0 auto;
+    margin-bottom: 11px;
+}
+.footer {
+    border: 1px solid #000;
+    height: 45px;
+    width: 100%;
+    margin-top: 6px;
+    background-image: url(../images/BANNER1.png);
+}
